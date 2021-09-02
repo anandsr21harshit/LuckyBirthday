@@ -6,12 +6,16 @@
 }
 
 body{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .header{
     text-align: center;
-    margin-top: 5rem;
+    margin: 5rem auto 0 auto;
+    color: white;
+    background-color: blue;
+    width: 30%;
+    padding: 10px;
 }
 
 .container{
