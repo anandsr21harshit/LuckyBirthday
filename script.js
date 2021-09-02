@@ -26,6 +26,18 @@ function Sum(input){
 function Lucky(input){
     if(input%luckyNumber.value === 0){
         para.innerText = `Congrats ${luckyNumber.value} is a lucky number!🥳🥳🥳`;
+        const start = ()=>{
+            setTimeout(function(){
+                confetti.start();
+            },1);
+        };
+        const stop = ()=>{
+            setTimeout(function(){
+                confetti.stop();
+            },5000)
+        }
+        start();
+        stop();
     }
     else{
         para.innerText =`${luckyNumber.value} is not so lucky ☹☹`;
