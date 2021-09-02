@@ -16,6 +16,7 @@ body{
     background-color: blue;
     width: 30%;
     padding: 10px;
+    border-radius: 0.8rem;
 }
 
 .container{
