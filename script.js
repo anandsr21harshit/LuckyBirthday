@@ -28,6 +28,6 @@ function Lucky(input){
         para.innerText = `Congrats ${luckyNumber.value} is a lucky number!🥳🥳🥳`;
     }
     else{
-        para.innerText =`${luckyNumber.value} is not so lucky.`;
+        para.innerText =`${luckyNumber.value} is not so lucky ☹☹`;
     }
 }
