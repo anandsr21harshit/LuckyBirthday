@@ -69,4 +69,7 @@ p{
     .container {
       min-width: 80%;
     }
+    .header{
+        width: 70%;
+    }
   }
