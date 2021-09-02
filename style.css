@@ -5,13 +5,9 @@
     font-family: "Lato", sans-serif;
 }
 
-body{
-    /* background-color: blueviolet; */
-}
-
 .header{
     text-align: center;
-    margin: 5rem auto 0 auto;
+    margin: 2rem auto 0 auto;
     color: white;
     background-color: blue;
     width: 30%;
@@ -64,6 +60,8 @@ p{
     font-weight: bold;
     width: 100%;
 }
+
+/* footer  */
 .footer{
     clear: left;
     padding-bottom: 0rem;
@@ -75,7 +73,7 @@ p{
     width: 100%;
 }
 .fheading{
-    padding: 9px;
+    padding: 0px;
 }
 .fa{
     padding: 1rem;
@@ -96,12 +94,38 @@ p{
 .fa-twitter{
     color:black;
 }
+@media screen and (max-width: 1000px) {
+    .footer{
+        clear: left;
+        padding-bottom: 0rem;
+        color: black;
+        font-size: 20px;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+}
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 900px) {
     .container {
       min-width: 80%;
     }
     .header{
         width: 70%;
     }
-  }
+    .footer{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+   p{
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%
+    }
+    .footer{
+        font-size: 10px;
+    }
+}
